@@ -6,8 +6,9 @@
    
  Bruno Molina - Santander 2025 - Back-End com Python
 
-![Banner](banner.png)
-
+![Banner](banner1.jpg)
+![Banner](banner2.jpg)
+![Banner](banner3.jpg)
 ---
 
 ## 📌 Sobre o Projeto
