@@ -10,9 +10,10 @@
 
 
 
-(banner1.JPG)
-(banner2.JPG)
-(banner3.JPG)
+![Banner 1](banner1.JPG)
+![Banner 2](banner2.JPG)
+![Banner 3](banner3.JPG)
+
 
 
 ---
