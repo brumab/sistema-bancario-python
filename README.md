@@ -6,7 +6,9 @@
    
 ## Santander 2025 - Back-End com Python 
 📄 Licença
-Este projeto foi desenvolvido para fins educacionais como parte do Santander Bootcamp 2025.
+Projeto desenvolvido durante o curso Back-End com Python (2025), oferecido pelo Santander, com a orientação do instrutor Guilherme Carvalho.
+
+Este curso é muito bom e excelente, proporcionando aprendizado prático e direto em desenvolvimento Python, com enfoque em projetos reais e funcionalidades de sistemas bancários. 😉
 
 🔗 Links Úteis
 Santander 2025 - Back-End com Python <a href="https://web.dio.me/track/santander-2025-python-back-end"><strong>➥ Link </strong></a>
