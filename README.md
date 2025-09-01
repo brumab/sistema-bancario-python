@@ -10,9 +10,9 @@
 
 <br>
 
-![1](banner1.jpg)
-![2](banner2.jpg)
-![3](banner3.jpg)
+banner1.jpg
+banner2.jpg
+banner3.jpg
 
 <br>
 ---
