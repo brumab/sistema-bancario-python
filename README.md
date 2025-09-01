@@ -4,8 +4,16 @@
 
 
    
- Bruno Molina - Santander 2025 - Back-End com Python
+## Santander 2025 - Back-End com Python 
+📄 Licença
+Este projeto foi desenvolvido para fins educacionais como parte do Santander Bootcamp 2025.
 
+🔗 Links Úteis
+Santander 2025 - Back-End com Python <a href="https://web.dio.me/track/santander-2025-python-back-end"><strong>➥ Link </strong></a>
+
+Digital Innovation One
+
+Desenvolvido como parte do Bootcamp Santander 2025 - Back-End com Python
 
 
 
