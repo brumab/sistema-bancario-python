@@ -35,21 +35,35 @@ O projeto simula operações bancárias básicas, como depósitos, saques, Pix, 
 ---
 
 ## 🚀 Funcionalidades
-- ✅ **Depósito** com validação de valores  
-- ✅ **Saque comum, Pix e Débito** com limites individuais  
-- ✅ **Controle de limite diário de saques**  
-- ✅ **Extrato detalhado** das operações  
-- ✅ **Tratamento de erros** (entrada inválida, saldo insuficiente, limites)  
-- ✅ **Interface interativa no terminal** com menu e ASCII Art  
+- ✅ **Depósito: Adicionar valores à conta, com validação de valores válidos.  
+- ✅ **Saque: Retirar valores com limite diário, saldo suficiente e controle por tipo (Débito, Pix ou Saque comum).
+- ✅ **Pix: Realizar transferências instantâneas com limite específico.
+- ✅ **Débito: Retirar valores diretamente da conta com limite definido. 
+- ✅ **Extrato: Consultar todas as movimentações realizadas e saldo atual.
+- ✅ **Limites e segurança: Controla limites de débito, Pix, saque e número máximo de saques diários.
 
 ---
 
 ## 📂 Estrutura do Código
 
-depositar() → Função para realizar depósitos
+Banner Inicial: Exibe identificação do projeto e autor.
 
-sacar() → Função para realizar saques (Pix, Débito, Comum)
+Menu Principal: Opções interativas para Débito, Pix, Depósito, Saque, Extrato e Sair.
 
-exibir_extrato() → Mostra as movimentações e saldo atual
+Variáveis de Controle:
 
-Loop principal → Exibe menu interativo para o usuário
+saldo, extrato → controle do saldo e histórico de movimentações
+
+limite_debito, limite_pix, limite_saque → limites por tipo de transação
+
+saques_debito, saques_pix, saques_comum → contador de saques diários
+
+Funções Principais:
+
+depositar(saldo, extrato) → realiza depósitos
+
+sacar(saldo, extrato, tipo, limite, contador_saques) → realiza saques e Pix com validações
+
+exibir_extrato(saldo, extrato) → imprime o extrato detalhado
+
+Loop Principal: Mantém o sistema rodando até o usuário selecionar Sair.
